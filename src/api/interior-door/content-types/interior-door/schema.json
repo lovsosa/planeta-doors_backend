@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interior_doors",
+  "info": {
+    "singularName": "interior-door",
+    "pluralName": "interior-doors",
+    "displayName": "Межкомнатные-Двери"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
+    },
+    "height": {
+      "type": "decimal"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "made": {
+      "type": "string"
+    }
+  }
+}

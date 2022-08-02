@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entrance_doors",
+  "info": {
+    "singularName": "entrance-door",
+    "pluralName": "entrance-doors",
+    "displayName": "Входные-Двери"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
+    },
+    "made": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "height": {
+      "type": "decimal"
+    }
+  }
+}
